@@ -1,3 +1,8 @@
+---
+title: get-started
+createTime: 2025/07/23 10:26:52
+permalink: /article/a5eq1ufq/
+---
 # Get Started
 
 This is a normal page, which contains VuePress basics.

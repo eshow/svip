@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
+    base:'/svip/',
     navbar: ['/', '/get-started'],
   }),
 

@@ -6,7 +6,8 @@
  * 请注意，你应该先在这里配置好 Notes，然后再启动 vuepress，主题会在启动 vuepress 时，
  * 读取这里配置的 Notes，然后在与 Note 相关的 Markdown 文件中，自动生成 permalink。
  *
- * 如果你发现 侧边栏没有显示，那么请检查你的配置是否正确，以及 Markdown 文件中的 permalink
+ * 如果你发现 侧边栏没有显示，那么请检查你的配置是否正确，以及 Markdown 文件中的 
+ * permalink
  * 是否是以对应的 note 配置的 link 的前缀开头。 是否展示侧边栏是根据 页面链接 的前缀 与 `note.link`
  * 的前缀是否匹配来决定。
  */
@@ -32,7 +33,13 @@ const demoNote = defineNoteConfig({
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
 })
-
+const noteA = defineNoteConfig({
+  dir: 'huawei',
+  link: '/huawei',
+   // 手动配置侧边栏结构
+  //sidebar: ['', '初级', '高级'],
+  sidebar: 'auto'
+})
 /**
  * 导出所有的 note
  * 每一个 note 都应该填入到 `notes.notes` 数组中
@@ -41,5 +48,5 @@ const demoNote = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [demoNote],
+  notes: [demoNote,noteA]
 })

@@ -16,7 +16,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
    base:'/svip/',
   lang: 'zh-CN',
-  title: 'My Vuepress Site',
+  title: 'My Profile Site',
   description: '',
 
   head: [
