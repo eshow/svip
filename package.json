@@ -1,21 +1,33 @@
 {
   "name": "my-vuepress-site",
-  "description": "A VuePress project",
-  "version": "0.0.1",
-  "license": "MIT",
   "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@10.13.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  },
+  "author": "elvishehai521@163.com <elvishehai521@163.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^20.6.0 || >=22.0.0"
+  },
   "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
     "docs:dev": "vuepress dev docs",
-    "docs:update-package": "pnpm dlx vp-update"
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
-    "@vuepress/theme-default": "2.0.0-rc.112",
-    "sass-embedded": "^1.86.0",
-    "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.24"
-  },
-  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-plume": "1.0.0-rc.158",
+    "http-server": "^14.1.1",
+    "vue": "^3.5.17",
+    "typescript": "^5.8.3"
+  }
 }
