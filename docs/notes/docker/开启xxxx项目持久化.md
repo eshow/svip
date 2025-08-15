@@ -1,3 +1,8 @@
+---
+title: 开启xxxx项目持久化
+createTime: 2025/08/15 14:06:38
+permalink: /article/31mlm1s8/
+---
 
 # 开启xxxx项目持久化
 

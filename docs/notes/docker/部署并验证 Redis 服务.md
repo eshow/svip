@@ -1,3 +1,8 @@
+---
+title: 部署并验证 Redis 服务
+createTime: 2025/08/15 14:06:38
+permalink: /article/gx84lejm/
+---
 ## 1.部署并验证 Redis 服务
 
 本任务是在docker上安装redis，并运行redis容器。实施步骤如下所示。

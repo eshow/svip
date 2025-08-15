@@ -1,3 +1,8 @@
+---
+title: '使用Dockerfile构建应用 '
+createTime: 2025/08/15 14:06:38
+permalink: /article/hvuv3nvu/
+---
 # 使用Dockerfile构建应用
 
 ## 任务目标

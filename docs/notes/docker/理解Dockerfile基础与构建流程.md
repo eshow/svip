@@ -1,3 +1,8 @@
+---
+title: 理解Dockerfile基础与构建流程
+createTime: 2025/08/15 14:06:38
+permalink: /article/m5aw8lyc/
+---
 ## 1.理解Dockerfile基础与构建流程
 
 **（1）理解 Dockerfile 基础**：明确 Dockerfile 是构建镜像的文本文件，包含基础镜像信息、操作指令和启动命令，构建流程为 “编写文件→构建镜像→运行容器”。

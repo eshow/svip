@@ -40,6 +40,13 @@ const noteA = defineNoteConfig({
   //sidebar: ['', '初级', '高级'],
   sidebar: 'auto'
 })
+const noteB = defineNoteConfig({
+  dir: 'docker',
+  link: '/docker',
+   // 手动配置侧边栏结构
+  //sidebar: ['', '初级', '高级'],
+  sidebar: 'auto'
+})
 /**
  * 导出所有的 note
  * 每一个 note 都应该填入到 `notes.notes` 数组中
@@ -48,5 +55,5 @@ const noteA = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [demoNote,noteA]
+  notes: [demoNote,noteA,noteB]
 })

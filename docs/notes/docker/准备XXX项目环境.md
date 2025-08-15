@@ -1,3 +1,8 @@
+---
+title: 准备XXX项目环境
+createTime: 2025/08/15 14:06:38
+permalink: /article/zknm0skk/
+---
 # 单元一 准备XXX项目环境
 
 ## 任务目标

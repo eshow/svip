@@ -1,3 +1,8 @@
+---
+title: Redis进阶
+createTime: 2025/08/15 14:06:38
+permalink: /article/2si4gw5s/
+---
 # Redis进阶
 
 ## 1.主从复制
